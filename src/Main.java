@@ -1,15 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(" ");
-        System.out.println(" ");
-        System.out.println(" ");
-        System.out.println("//////////////////////////");
-        System.out.println("Primer ejercicio");
-        System.out.println("//////////////////////////");
-        System.out.println(" ");
-        System.out.println(" ");
-        System.out.println(" ");
+        Secciones("Primero");
 
         int nunmeroif=10;
         if (nunmeroif>0){
@@ -21,15 +13,8 @@ public class Main {
         else{
             System.out.println("El número es 0");
         }
-        System.out.println(" ");
-        System.out.println(" ");
-        System.out.println(" ");
-        System.out.println("//////////////////////////");
-        System.out.println("Segundo ejercicio");
-        System.out.println("//////////////////////////");
-        System.out.println(" ");
-        System.out.println(" ");
-        System.out.println(" ");
+
+        Secciones("Segundo");
 
         int numerowhile=0;
         while (numerowhile<3){
@@ -37,15 +22,7 @@ public class Main {
             numerowhile++;
         }
 
-        System.out.println(" ");
-        System.out.println(" ");
-        System.out.println(" ");
-        System.out.println("//////////////////////////");
-        System.out.println("Tercer ejercicio");
-        System.out.println("//////////////////////////");
-        System.out.println(" ");
-        System.out.println(" ");
-        System.out.println(" ");
+        Secciones("Tercer");
 
         int numerodowhile=3;
         do{
@@ -53,29 +30,14 @@ public class Main {
             numerodowhile++;
         }while (numerodowhile<3);
 
-        System.out.println(" ");
-        System.out.println(" ");
-        System.out.println(" ");
-        System.out.println("//////////////////////////");
-        System.out.println("Cuarto ejercicio");
-        System.out.println("//////////////////////////");
-        System.out.println(" ");
-        System.out.println(" ");
-        System.out.println(" ");
+        Secciones("Cuarto");
+
 
         for(int i=0; i<=0; i++){
             System.out.println("El valor del número es"+i);
         }
 
-        System.out.println(" ");
-        System.out.println(" ");
-        System.out.println(" ");
-        System.out.println("//////////////////////////");
-        System.out.println("Quinto ejercicio");
-        System.out.println("//////////////////////////");
-        System.out.println(" ");
-        System.out.println(" ");
-        System.out.println(" ");
+        Secciones("Quinto");
 
         String estacion = "Primavera";
 
@@ -95,5 +57,18 @@ public class Main {
             default:
                 System.out.println("No es una estacion");
         }
+
+
+    }
+    public static void Secciones (String seccion) {
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println("//////////////////////////");
+        System.out.println(seccion+" ejercicio");
+        System.out.println("//////////////////////////");
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println(" ");
     }
 }
